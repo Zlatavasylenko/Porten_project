@@ -219,3 +219,55 @@ body {
 .transform-scale:hover {
     transform: scale(1.15);
 }
+.bg-image {
+    position: relative;
+}
+
+.bg-image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.main-screen {
+    padding-top: 160px;
+    padding-bottom: 154px;
+}
+
+.main-screen__img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.block-logo {
+    margin-bottom: 80px;
+    border: 4px solid var(--white);
+    padding: 94px 68px;
+}
+
+.block-logo__title {
+    font-family: "Post No Bills Jaffna", sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 150%;
+    text-decoration-line: underline;
+    /* text-underline-offset: 8px; */
+}
+
+.block-logo__sity {
+    margin-top: -14px;
+    font-size: 22px;
+    line-height: 28px;
+}
+
+.main-screen__description {
+    font-size: 16px;
+    line-height: 150%;
+    max-width: 730px;
+}
